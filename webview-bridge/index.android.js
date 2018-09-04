@@ -33,7 +33,9 @@ var {
     WebViewBridgeManager
   }
 } = ReactNative;
-var { PropTypes } = React;
+
+var PropTypes = require("prop-types");
+React.createClass = require("create-react-class");
 
 var RCT_WEBVIEWBRIDGE_REF = 'webviewbridge';
 
